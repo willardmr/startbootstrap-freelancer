@@ -171,7 +171,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 125px 0;
 }
 
 section h2 {
@@ -184,6 +184,15 @@ section.success {
     background: #18bc9c;
 }
 
+section.success a,
+section.success a:hover,
+section.success a:focus,
+section.success a:active,
+section.success a.active {
+    outline: 0;
+    color: #2c3e50;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -194,19 +203,19 @@ section.success {
     }
 }
 
-#portfolio .portfolio-item {
+#skills .skills-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#skills .skills-item .skills-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption {
+#skills .skills-item .skills-link .caption {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -217,11 +226,11 @@ section.success {
     transition: all ease .5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#skills .skills-item .skills-link .caption:hover {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#skills .skills-item .skills-link .caption .caption-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -232,21 +241,21 @@ section.success {
     color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#skills .skills-item .skills-link .caption .caption-content i {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#skills .skills-item .skills-link .caption .caption-content h3,
+#skills .skills-item .skills-link .caption .caption-content h4 {
     margin: 0;
 }
 
-#portfolio * {
+#skills * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
-    #portfolio .portfolio-item {
+    #skills .skills-item {
         margin: 0 0 30px;
     }
 }
@@ -385,7 +394,7 @@ footer .footer-below {
     outline: 0;
 }
 
-.portfolio-modal .modal-content {
+.skills-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -396,20 +405,21 @@ footer .footer-below {
     box-shadow: none;
 }
 
-.portfolio-modal .modal-content h2 {
+.skills-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
 }
 
-.portfolio-modal .modal-content img {
+.skills-modal .modal-content img {
     margin-bottom: 30px;
+    max-width: 450px;
 }
 
-.portfolio-modal .modal-content .item-details {
+.skills-modal .modal-content .item-details {
     margin: 30px 0;
 }
 
-.portfolio-modal .close-modal {
+.skills-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -419,11 +429,11 @@ footer .footer-below {
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
+.skills-modal .close-modal:hover {
     opacity: .3;
 }
 
-.portfolio-modal .close-modal .lr {
+.skills-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -434,7 +444,7 @@ footer .footer-below {
     transform: rotate(45deg);
 }
 
-.portfolio-modal .close-modal .lr .rl {
+.skills-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
@@ -442,4 +452,20 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.skills-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+html, body, #map-canvas  {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#map-canvas {
+  width:500px;
+  height:480px;
 }
