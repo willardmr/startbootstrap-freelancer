@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #16a085;
 }
 
 h1,
@@ -63,7 +63,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    /*background-color: #16a085;*/
 }
 
 hr.star-primary {
@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #16a085;
 }
 
 header .container {
@@ -181,7 +181,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #16a085;
 }
 
 section.success a,
@@ -274,7 +274,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #16a085;
     background: #fff;
 }
 
@@ -327,7 +327,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #16a085;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -468,4 +468,27 @@ html, body, #map-canvas  {
 #map-canvas {
   width:500px;
   height:480px;
+}
+
+#mycarousel {
+    margin-top: 90px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -20px;
+}
+
+.carousel-caption {
+    margin-bottom: 7%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+@media (max-width: 797px) {
+    body { 
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }

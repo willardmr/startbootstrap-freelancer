@@ -74,14 +74,20 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="{% static "img/profile.png"%}" alt="">
-                    <div class="intro-text">
-                        <span class="name">Maxwell Willard</span>
-                        <hr class="star-light">
-                        <span class="skills">Full Stack Developer - System Architect - Database Designer</span>
+        <div class="container-fluid">
+            <div class="col-lg-12">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                        <img src="{% static "img/edited_portrait.jpg"%}" alt="" class="img-responsive">
+                           <div class="carousel-caption">
+                            <div class="intro-text">
+                                <span class="name">Maxwell Willard</span>
+                                <hr class="star-light">
+                                <span class="skills">Full Stack Developer - System Architect - Database Designer</span>
+                            </div>
+                           </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -305,7 +311,7 @@
                             <h2>User Experience Design</h2>
                             <hr class="star-primary">
                             <img src="{% static "img/skills/Boostrap_logo.svg"%}" class="img-responsive img-centered" alt="">
-                             <p><strong>This website uses the Bootstrap framework to create responsive visuals.</strong></p><p>I use the Freelancer theme from <a href="http://startbootstrap.com/" target="_blank">startbootstrap.com</a> that can be found <a href="http://blackrockdigital.github.io/startbootstrap-freelancer/" target="_blank">here</a> as a base for my visual design.  I use photoshop to edit the icons in this website and edited the css files.</p>
+                             <p><strong>This website uses the Bootstrap framework to create responsive visuals.</strong></p><p>I use the Freelancer theme from <a href="http://startbootstrap.com/" target="_blank">startbootstrap.com</a> that can be found <a href="http://blackrockdigital.github.io/startbootstrap-freelancer/" target="_blank">here</a> as a base for my visual design.  I use Gimp to edit the icons in this website and manually edited the CSS files.  My visual modifications can be found at <a href="https://github.com/willardmr/startbootstrap-freelancer/" target="_blank">https://github.com/willardmr/startbootstrap-freelancer</a></p>
                             <p>I have extensive experience changing default visuals to fit custom user experiences.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -352,7 +358,7 @@
                             <h2>Deployment and Administration</h2>
                             <hr class="star-primary">
                             <img src="{% static "img/skills/server.png"%}" class="img-responsive img-centered" alt="">
-                             <p><strong>This website is deployed on the Heroku platform.</strong></p><p>I have also deployed and maintained services on dedicated Linux servers and have familiarity with the operating system.  I have optimised code to minimize database queries and page load time.</p>
+                             <p><strong>This website is deployed on the Heroku platform using the default Postgres database backend.</strong></p><p>I have deployed and maintained services on dedicated Linux servers using Nginx, uWSGI and MySQL.  I have optimised code to minimize database queries and page load time.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
