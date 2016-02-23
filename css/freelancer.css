@@ -492,3 +492,8 @@ html, body, #map-canvas  {
         padding-right: 0px;
     }
 }
+
+#class {
+    min-width: 612px;
+    min-height: 492px;
+}
