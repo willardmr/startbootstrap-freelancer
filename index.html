@@ -287,8 +287,8 @@
                                 {% csrf_token %}
                                 {% crispy form %}
                             </form>
-                            <p><strong>The above demo demonstrates the integration of Django view logic, database backend, Ajax, and jQuery.</strong></p><p>I use a Django form to create the checkbox and submit button.  I then post the data using Ajax, save it to the database backend and update the visual interface with jQuery.  Only the three most recent values are saved.</p>
-                            <p>I have created custom Django forms, and designed databases with Django database logic for a variety of applications.</p>
+                            <p><strong>The above demo demonstrates the integration of Django view logic, database backend, Ajax, and jQuery.</strong></p><p>I use a Django form to create the checkbox and submit button.  I then post the data using Ajax, save it to the database backend and update the visual interface with jQuery.  Only the three most recent values are saved.  Refresh the page and the values entered will persist in the database.</p>
+                            <p>I have created custom Django forms including wizards, and designed databases with Django database logic for a variety of applications.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -310,8 +310,8 @@
                         <div class="modal-body">
                             <h2>User Experience Design</h2>
                             <hr class="star-primary">
-                            <img src="{% static "img/skills/Boostrap_logo.svg"%}" class="img-responsive img-centered" alt="">
-                             <p><strong>This website uses the Bootstrap framework to create responsive visuals.</strong></p><p>I use the Freelancer theme from <a href="http://startbootstrap.com/" target="_blank">startbootstrap.com</a> that can be found <a href="http://blackrockdigital.github.io/startbootstrap-freelancer/" target="_blank">here</a> as a base for my visual design.  I use Gimp to edit the icons in this website and manually edit the CSS files.  My visual modifications can be found at <a href="https://github.com/willardmr/startbootstrap-freelancer/" target="_blank">https://github.com/willardmr/startbootstrap-freelancer</a></p>
+                            <img src="{% static "img/skills/Boostrap_logo.svg"%}" class="img-responsive img-centered img-small" alt="">
+                             <p><strong>This website uses the Bootstrap framework to create responsive visuals.</strong></p><p>I use the Freelancer theme from <a href="http://startbootstrap.com/" target="_blank">startbootstrap.com</a> that can be found <a href="http://blackrockdigital.github.io/startbootstrap-freelancer/" target="_blank">here</a> as a base for my visual design.  I use Gimp to edit the icons on this website and manually edit the CSS files.  My visual modifications can be found at <a href="https://github.com/willardmr/startbootstrap-freelancer/" target="_blank">https://github.com/willardmr/startbootstrap-freelancer</a></p>
                             <p>I have extensive experience changing default visuals to fit custom user experiences.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -334,7 +334,7 @@
                         <div class="modal-body">
                             <h2>Version Control and Other Projects</h2>
                             <hr class="star-primary">
-                            <img src="{% static "img/skills/Git_icon.png"%}" class="img-responsive img-centered" alt="">
+                            <img src="{% static "img/skills/Git_icon.png"%}" class="img-responsive img-centered img-small" alt="">
                              <p><strong>I have extensive experience using Git version control.</strong></p><p>The code for this site can be found at <a href="https://github.com/willardmr/Personal_Website" target="_blank">https://github.com/willardmr/Personal_Website</a>.<br><br>  Other Django projects connected to my current work can be found at <a href="https://github.com/willardmr/" target="_blank">https://github.com/willardmr/</a>.<br><br>  An iOS app I worked on can be found at <a href="https://bitbucket.org/shankl/beatsbyken" target="_blank">https://bitbucket.org/shankl/beatsbyken</a>.<br><br>  My senior comprehensive project at Carleton College on facial tracking can be found at <a href="https://bitbucket.org/facialrecognition/facial-recognition" target="_blank">https://bitbucket.org/facialrecognition/facial-recognition</a>.<br><br>  A Java hearts game I worked on can be found at <a href="https://bitbucket.org/njharlen/hearts" target="_blank">https://bitbucket.org/njharlen/hearts</a>.<br><br> A evolutionary computing project on stock market strategies can be found at <a href="https://bitbucket.org/willardm/taking-stock" target="_blank">https://bitbucket.org/willardm/taking-stock</a>.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -357,8 +357,8 @@
                         <div class="modal-body">
                             <h2>Deployment and Administration</h2>
                             <hr class="star-primary">
-                            <img src="{% static "img/skills/server.png"%}" class="img-responsive img-centered" alt="">
-                             <p><strong>This website is deployed on the Heroku platform using the default Postgres database backend.</strong></p><p>I have deployed and maintained services on dedicated Linux servers using Nginx, uWSGI and MySQL.  I have optimised code to minimize database queries and page load time.</p>
+                            <img src="{% static "img/skills/server.png"%}" class="img-responsive img-centered img-small" alt="">
+                             <p><strong>This website is deployed on the Heroku platform using the default Postgres database backend.</strong></p><p>I have deployed and maintained services on dedicated Linux servers using Nginx, uWSGI and MySQL.  I have experience optimizing code to minimize database queries and page load time.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -380,9 +380,9 @@
                         <div class="modal-body">
                             <h2>System Design</h2>
                             <hr class="star-primary">
-                            <img id='class' src="{% static "img/skills/matchmaking.png"%}" class="img-responsive img-centered" alt="">
-                            <p><strong>The above is an example of a diagram I used to design a Django app.  It uses modified UML syntax.</strong></p><p>I have designed complex, scalable systems for various implementations.  I have designed database schemas, APIs, and permission policies.</p>
-                            <p>Simplicity, scalability, modularity, and documentation are my keys to good software design.</p>
+                            <img id="diagram" src="{% static "img/skills/matchmaking.png"%}" class="img-responsive img-centered" alt="">
+                            <p><strong>The above is an example of a diagram I used to design a Django app.  It uses modified UML syntax.</strong></p><p>I have designed complex, scalable systems for various implementations.  This includes database schemas, APIs, and permission policies, many of which have been taken to production.</p>
+                            <p>I belive simplicity, scalability, modularity, and documentation are the keys to good software design.</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -440,7 +440,11 @@ function create_post() {
             $('#id_value').val(Math.floor((Math.random() * 100) + 1)); // remove the value from the input
             for (i = 0; i < json.length; i++) {
                 var string = 'value' + i
-                $('#'+string).html('<span class="label label-success">' + json[i][0] + '</span>');
+                if (i == json.length-1){
+                    $('#'+string).html('<span class="label label-success">' + json[i][0] + ' Is Your Value</span>');
+                } else {
+                    $('#'+string).html('<span class="label label-success">' + json[i][0] + '</span>');
+                }
             }
         },
 

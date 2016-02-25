@@ -493,7 +493,11 @@ html, body, #map-canvas  {
     }
 }
 
-#class {
+#diagram {
     min-width: 612px;
     min-height: 492px;
+}
+
+.img-small {
+    max-height: 300px;
 }
